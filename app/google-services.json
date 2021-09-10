@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "709074817644",
+    "project_id": "phms-3550f",
+    "storage_bucket": "phms-3550f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:709074817644:android:e36304e4ea39b48296be49",
+        "android_client_info": {
+          "package_name": "com.example.phms_cse3311"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "709074817644-li8ht4hccqcq1dffjnr4vdlgovkggb6j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1QlJudkXhFa0p3G9ooGwJePo7suo3tfg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "709074817644-li8ht4hccqcq1dffjnr4vdlgovkggb6j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

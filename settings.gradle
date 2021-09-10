@@ -1,0 +1,2 @@
+rootProject.name = "PHMS_CSE3311"
+include ':app'

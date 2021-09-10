@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.phms_cse3311">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="Personal Health Monitoring System"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PHMS_CSE3311">
+        <activity android:name=".dataMaintenance" />
+        <activity android:name=".exercise" />
+        <activity android:name=".monitoringSystem" />
+        <activity android:name=".communication" />
+        <activity android:name=".searching" />
+        <activity android:name=".notes" />
+        <activity android:name=".diet" />
+        <activity android:name=".medications" />
+        <activity android:name=".vitalSigns" />
+        <activity android:name=".Homescreen" />
+        <activity android:name=".register" />
+        <activity android:name=".login" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

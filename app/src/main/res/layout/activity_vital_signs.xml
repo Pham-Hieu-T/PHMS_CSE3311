@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vitalSigns">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Blood Pressure (mm Hg)"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/bloodPressure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/bloodPressureButton"
+        android:text="Check Blood Pressure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Glucose Level (mg/dL)"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/glucoseLevel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/glucoseLevelButton"
+        android:text="Check Glucose Level"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Pulse Rate (beats per minute)"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/pulseRate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/pulseRateButton"
+        android:text="Check Pulse Rate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
